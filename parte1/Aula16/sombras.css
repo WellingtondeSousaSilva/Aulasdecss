@@ -1,0 +1,10 @@
+h1{
+    font-size: 50px;
+    color: rgb(107, 252, 252);
+    text-shadow: 10px 7px 5px purple;/**isso serve para colocar sombra no texto na ordem:horizontal(x), vertical(y) opacidade da cor e a cor, lembrando que podemos colocar quantas sombras quisermos**/
+}
+div{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 7px 5px yellowgreen;/**tem as mesmas propriedades que o text-shadow so que o text-shadow e para aplicar sombra em texto ja box-shadow serve para aplicar sombra em div's/p's mais em bordas**/
+}

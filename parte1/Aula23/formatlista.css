@@ -1,0 +1,14 @@
+ul{
+    list-style-type: disc;/**aqui é o tipo do marcador nesse caso ele é um circulo preenchido**/
+    list-style-position: inside;/**aqui você manipula a posição do marcador no caso ele entra na lista, o padrão é fora(outside)**/
+}
+ul li{
+    border: 1px solid black;
+}
+ol{
+    list-style:square outside;/**aqui é a mesma coisa só que usando a metapropriedade**/
+    
+}
+ol li{
+    border: 1px solid black;
+}

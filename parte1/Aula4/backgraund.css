@@ -1,0 +1,9 @@
+body{
+    background-image: url(nasalogo.jpeg);/**serve para colocar a img de fundo mas nao e a img mas sim o fundo e ela sai varias delas preenchendo todao o fundo**/
+    background-size: 200px 100px;/** o primeiro e largura e o segunda e a altura mas vc pode colocar so o primeiro tambem.**/
+    background-repeat: no-repeat;/**serve para a img nao se repetir**/
+    background-repeat: repeat-x;/**so repeti a img horizontalmente**/
+    background-repeat: repeat-y;/**so repeti a img verticalmente**/
+    
+
+}

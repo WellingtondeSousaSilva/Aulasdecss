@@ -1,0 +1,12 @@
+body{
+    background: white url(nasalogo.jpeg) no-repeat 0px 0px / 150px;
+
+    /**mesma coisa que:
+    background-color: width:;
+    background-image: url(nasalogo.jpeg);
+    background-repeat: no-reapeat;
+    background-position: 0px 0px;
+    background-size: 150px;
+    so que de forma mais economica
+    **/
+}

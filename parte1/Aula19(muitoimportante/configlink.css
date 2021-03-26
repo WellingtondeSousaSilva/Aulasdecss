@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+}
+a:hover{/**vai fazer uma ação que quando eu passar o mouse em cima do link ele vai mudar de cor**/ 
+    color: darkred;
+}
+.link{
+    color: rgb(63, 212, 138);
+    background-color: midnightblue;
+    padding: 20px;
+}
+.link:hover{
+    color: rgb(63, 212, 138);
+    background-color: rgb(23, 99, 161);
+}
+.link3{
+    color: pink;
+    background-color: rebeccapurple;
+    padding: 20px;
+    display: table-cell;/**é como se fosse uma célula de tabela**/
+}
+.link3:hover{
+    background-color: rgb(91, 63, 119);
+}

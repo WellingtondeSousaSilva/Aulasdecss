@@ -1,0 +1,12 @@
+body{
+    background: white url(nasalogo.jpeg) no-repeat center 0px / 300px;/**a imagem vai ficar centralizada**/
+
+    /**mesma coisa que:
+    background-color: width:;
+    background-image: url(nasalogo.jpeg);
+    background-repeat: no-reapeat;
+    background-position: center 0px;
+    background-size: 300px;
+    so que de forma mais economica
+    **/
+}

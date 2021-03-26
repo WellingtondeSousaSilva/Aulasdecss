@@ -1,0 +1,33 @@
+#d1{
+    width: 500px;/**largura da div**/
+    height: 500px;/**altura da div**/
+    border-style: groove;/**o tipo/style da borda**/
+    border-width: 20px;/**a largura da borda**/
+    border-color: steelblue;/**a cor da borda**/
+    background-color: grey;
+}
+#d2{
+    border: grey ridge 20px;/**metapropriedade**/
+    width: 500px;
+    height: 500px;
+    background-color: hotpink;
+
+    /**no border e a mesma coisa so que eu simplifiquei:
+    border-color: cinza;
+    border-style: ridge;
+    border-width: 20px;
+    **/
+
+    /**Lista dos outros estilos de borda:
+    border-style: solid;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+    border-style: none;
+    border-style: hidden;
+    **/
+
+}

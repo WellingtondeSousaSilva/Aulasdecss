@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+div{
+    border: black solid 1px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#d1{
+    padding: 100px;/**contola a margin interna qunado estar com um valor como o margin esse valor vai para as 4 direçoes**/
+}
+#d2{
+    padding: 0px 70px 50px 70px;/**na ordem cima, direita, baixo e esquerda**/
+    /**mesma coisa que:
+    padding-top: 0px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+
+    OBS:lembrando que todos tem a largura de 500px mas como voce coloca o padding que e a margin interna
+        esse valor e adicionado ao valor da largura entao ele acaba ficando maior
+    **/
+}

@@ -1,0 +1,15 @@
+#d1,#d2,#d3{
+    border: 10px dotted #000000;/**na ordem a espessura da bordar,o tipo da borda no caso pontilhada e por ultimo a cor da borda**/
+    padding: 220px 280px 100px 200px;/**na ordem topo,direita,baixo,esquerda,essa propriedade serve para manipular a margin interna do elemento**/
+    background-color: green;
+
+}
+#d1{
+    background-clip: border-box;/**nao muda nada e o padrao**/
+}
+#d2{
+    background-clip: padding-box;/**nao considera a area da borda como background**/
+}
+#d3{
+    background-clip: content-box;/**so vai aplicar o background no elemento/texto/conteudo**/
+}

@@ -1,0 +1,12 @@
+#p1{
+    font-family: Arial, Helvetica, sans-serif/**essa propriedade nos permite a mudar o tipo da fonte, esses 3 nomes são 3 fontes diferentes no caso se ela não achar a 1 vai pra 2 que vai para a 3 e assim por diante**/
+}
+#p2{
+    font-family: 'Roboto', sans-serif;/**nessa fonte eu usei do site google fonte,para usar eu preciso do link e colo la no html**/
+    font-size: 30px;
+    font-style: oblique;/**como diz o nome muda o estilo da fonte**/
+}
+#p3{
+    font-family: 'Langar', cursive;/**nessa fonte eu usei do site google fonte,para usar eu preciso do link e colo la no html**/
+    font-size: 30px;
+}

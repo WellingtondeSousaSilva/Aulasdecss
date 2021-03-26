@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;/**serve para colar as bordas**/
+    border-spacing: 0px;/**espaçamento das bordas, mas não vai acontecer nada pois elas já estão coladas uma nas outras**/
+    width: 350px;
+    table-layout: fixed;/**Essa propriedade distribui o valor da largura de igual para igual em todas as colunas**/
+   
+  
+}
+td{
+    height: 50px;
+    vertical-align: middle;/**Nessa propriedade você controla o posicionamento vertical da celula middle é o padrão que é o meio**/
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: table-cell;
+    vertical-align: bottom;/**ATENÇÃO:essa propriedade só funciona em tabela mas para usa-la é necéssario mudar o seu display do elemento para table-cell fazendo assim o elemento como se fosse uma tabela**/ 
+}

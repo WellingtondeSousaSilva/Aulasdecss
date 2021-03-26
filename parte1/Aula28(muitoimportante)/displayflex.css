@@ -1,0 +1,10 @@
+section{
+    border: 1px solid red;
+    display: flex;/**torna o coteiner flexivel e os elementos dele podem receber formatações de elementos flexiveis,e eles ficam u lado do outro**/
+    display: -webkit-flex;/**para versões masi antigas de alguns browsers como crome, firefox e etc(caso não reconheça o flex**/
+    display:-moz-flex;/**para versões mais antigas do mozilla(caso não reconheça o flex)**/
+}
+div{
+    border: 1px solid rgb(15, 15, 15);
+    flex: 1;/**para deixar o elemento flexivel, e ele vai se ajustar ao conteiner e ser responsivo**/
+}

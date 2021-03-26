@@ -1,0 +1,21 @@
+p{
+    font-size: 30px; 
+}
+#d1{
+    position: absolute;/**sem explicaçao no momento**/
+    width: 400px;
+    height: 300px;
+    top: 0px;/**aqui controlamos o espaçamento de cima**/
+    left: 150px;/**aqui controlamos a esquerda pra ser exato o espaçamento da esquerda ou seja ela vai para a direita**/
+    background: rgba(255, 0, 0, 0.5);/**essa propriedade serve para controlar a tranparencia da cor sendo na ordem
+                                        R:red,G:green,B:blue e A:alpha sendo o ultimo que controla a transparencia que varia de 0 a 1**/
+}
+#d2{
+    position: absolute;/**sem explicaçao no momento**/
+    width: 400px;
+    height: 300px;
+    top: 200px;/**aqui controlamos o espaçamento de cima ou seja ela desci**/
+    left: 400px;/**aqui controlamos a esquerda pra ser exato o espaçamento da esquerda ou seja ela vai para a direita**/
+    background: rgba(0, 0, 255, 0.5);/**essa propriedade serve para controlar a tranparencia da cor sendo na ordem
+                                         R:red,G:green,B:blue e A:alpha sendo o ultimo que controla a transparencia que varia de 0 a 1**/
+}

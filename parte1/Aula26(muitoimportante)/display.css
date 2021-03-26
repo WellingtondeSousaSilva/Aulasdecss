@@ -1,0 +1,16 @@
+div,span{
+    border: 1px solid black;
+    margin: 10px;
+}
+#d1{
+    display: inline-block;
+}
+#s1{
+    display: block;
+}
+#d2{
+    display: inline-block;
+}
+#s2{
+    display: block;
+}

@@ -1,0 +1,28 @@
+section{
+    border: 1px solid red;
+    display: flex;/**torna o coteiner flexivel e os elementos dele podem receber formatações de elementos flexiveis,e eles ficam u lado do outro**/
+    display: -webkit-flex;/**para versões masi antigas de alguns browsers como crome, firefox e etc(caso não reconheça o flex**/
+    display:-moz-flex;/**para versões mais antigas do mozilla(caso não reconheça o flex)**/
+    margin-bottom: 10px;
+    height: 200px;
+}
+#s1{
+    /**alinhamento horizontal**/
+    justify-content: center;/**vai centralizar o elemento, existe o start(esquerda) padrão, start-end(direita)**/
+}
+#s2{
+    justify-content: center;
+    /**alinhamento vertical**/
+    align-items: center;
+}
+#s3{
+
+    justify-content: center;
+    align-items: center;
+    /**direção dos elementos**/
+    flex-direction: column;/**como diz o nome vai definir a direcao dos elemetos nesse caso vai ser como uma coluna de tabela**/
+}
+div{
+    border: 1px solid black;
+    width: 100px;
+}

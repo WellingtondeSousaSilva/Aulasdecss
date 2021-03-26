@@ -1,0 +1,5 @@
+body{
+   background-image: url(nasalogo.jpeg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;/**serve para fixar a img do background ou seja ele nao roda quando vc faz a rolagem tem o scroll que e o padrao**/
+}

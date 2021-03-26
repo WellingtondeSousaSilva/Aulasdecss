@@ -1,0 +1,28 @@
+#d1{
+    /**dessa maneira e bem mais pratica e eficiente**/
+    width: 300px;
+    border-top: aqua groove 10px;/**configura separadamente a borda de cima**/
+    border-right: yellowgreen groove 10px;/**configura separadamente a borda da direita**/
+    border-bottom: turquoise solid 10px;/**configura separadamente a borda da direita**/
+    border-left: rgb(221, 92, 92) outset 10px;/**configura separadamente a borda da esquerda**/
+}
+#d2{
+    /**dessa maneira e bem mais extensiva e cansativa mas da na mesma da outra**/
+    width: 300px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 10px;
+
+    border-right-color: salmon;
+    border-right-style: groove;
+    border-right-width: 10px;
+
+    border-bottom-color: springgreen;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+
+    border-left-color: yellowgreen;
+    border-left-style: dashed;
+    border-left-width: 10px;
+
+}

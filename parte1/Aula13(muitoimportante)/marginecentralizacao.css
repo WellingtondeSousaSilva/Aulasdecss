@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+div{
+   border: black solid 2px;
+}
+#d1{
+    margin: 30px 50px 70px 0px;/**a margin controla os elementos de fora na ordem:cima,direita,baixo e esquerda**/
+    /**mesma coisa que:
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    margin-left: 0px;
+    **/
+}
+#d2{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#d3{
+    width: 300px;
+    height: 300px;
+    margin: auto;/**esse auto srve para centralizar a tag/elemento mas so funciona se vc dezer a largura(width) da tag/elemento**/
+    margin-bottom: 10px;
+}
+#d3 p{/**aqui estou referenciando somente o elemento p da div d3**/
+    width: 200px;
+    margin: auto;/**esse auto e pra centralizar o elemento p e nao o texto pois o texto ja esta centralizado la em baixo**/ 
+}
+#d4{
+    width: 200px;
+    height: 200px;
+    margin: auto;/**esse auto srve para centralizar a tag/elemento mas so funciona se vc dezer a largura(width) da tag/elemento**/
+}
+p{/**aqui e para todos os p's**/
+    margin: 0px;
+    border: crimson solid 1px;
+    text-align: center;/**essa propriedade serve para centralizar o conteudo da tag p, ou seja, o texto (nao confundir com o auto)**/
+}

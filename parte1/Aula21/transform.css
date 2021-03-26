@@ -1,0 +1,30 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+#d1{
+    transform: translate(20px,30px);/**translate vai fazer que o elemento se translate, na ordem eixo x(orinzontal) e y(vetical) não confundir com posicionamento**/
+}
+#d2{
+    margin-top: 150px;
+    transform: scale(2);/**scale faz com que o elemento aumente de tamanho no caso eu dobrei o seu tamnanho, mas você pode triplicar, quadruplicar e etc**/
+}
+#d3{
+    margin-top: 120px;
+    transform: rotate(45deg);/**rotate serve para rotacionar o elemento e você pode fazer isso usando o deg(ângulo)**/
+}
+#d4{
+    transform: skewX(15deg) translate(50px,0px);/**skewX vai fazer com que o elemento incline para a horizontal e se você quiser usar mais de uma propriedade do transform tem que usar no mesmo transform**/
+}
+#d5{
+    transform: skewY(15deg) translate(50px,0px);/**mesma coisa só que na vertical**/
+
+    /** da pra usar assim também: transform: skew(13deg,15deg);**/
+
+
+    /**da para usar a metapropriedade, mas dessa forma:
+    transform: matrix(scaleX,skewY,skewX,scaleY,translateX,translateY);
+    **/
+}

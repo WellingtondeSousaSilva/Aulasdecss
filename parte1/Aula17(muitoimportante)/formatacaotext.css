@@ -1,0 +1,78 @@
+div{
+    width: 500px;
+    height: 200px;
+    border: black 1px solid;
+    margin-bottom: 10px;
+}
+#d1{
+    /**especificando melhor o overflow vai controlar aquele conteudo que esta transbordando que esta em overflow**/
+    white-space: nowrap;/**configura que não vai ter quebra de linha vai ser um conteudo totalmente linear**/ 
+    overflow: hidden;/**vai fazer que o texto que esta transbordando(que esta fora) se oculte**/
+}  
+#d2{
+    width: 300px;
+    height: 150px;
+    white-space: normal;/**como diz o nome a quebra de linha vai ser normal que e o padrão**/
+    overflow: auto;/**adiciona uma barra de rolamento caso o texto acabe transbordando,mas o auto vai colocar caso seja preciso ao contrario do scroll que coloca mesmo nao precisando**/
+}
+#d3{
+    width: 300px;
+    height: 150px;
+    overflow: auto;/**adiciona uma barra de rolamento caso o texto acabe transbordando,mas o auto vai colocar caso seja preciso ao contrario do scroll que coloca mesmo nao precisando**/
+    word-break: break-all;/**controla a parada da palavra(quebra) quando se tem uma palavara muito grande e all-break vai quebrar aonde for necessrio**/
+}
+.p1{
+    text-align: center;/**o texto fica centralizado**/
+}
+.p2{
+    text-align: justify;/**o texto fica justificado**/
+}
+.p3{
+    text-align: left;/**o texto começa para a esqueda o que e o padrao**/
+}
+.p4{
+    text-align: right;/**o texto começa na direita**/
+    text-decoration: none;/**sem decoraçao**/
+}
+.p5{
+    text-decoration: underline;/**o texto fica sublinhado**/
+}
+.p6{
+    text-decoration: overline;/**o texto fica sublinhado para cima ao contrario do underline**/
+}
+.p7{
+    text-decoration: line-through;/**o texto fica riscado**/
+}
+.p8{
+    text-transform: lowercase;/**essa propriedade serve para configurar o case a letra se ela vai ser maiuscula ou minuscula nesse caso tudo vai se minusculo**/
+    
+}
+.p9{
+    text-transform: uppercase;/**tudo vai ficar maiusculo**/
+
+}
+.p10{
+    text-transform: capitalize;/**somente as primeiras letras de cada palavra vai ser maiusculo**/
+}
+.p11{
+    text-indent: 50px;/**configura o espaçamento do paragrafo**/
+}
+.p12{
+    letter-spacing: 4px;/**configura o espaçamento das letras**/
+}
+.p13{
+    line-height: 2;/**configura o espaçamento das linhas**/
+}
+.p14{
+    direction: rtl;/**fongigura a direção de onde começa o texto rtl(right to left) e ltr(left to rigth) e o padrão**/
+}
+.p15{
+    word-spacing: 5px;/**configura o espaçamento entre as palavras ao contrario do letter-spacing que e entre as letras**/
+}
+.p16{
+    text-align-last: center;/**aqui você configura a ultima linha se ela vai pra esquerda pra direita nesse caso ela vai ficar**/
+
+}
+a{
+    text-decoration: none;/**aquele sublinhado que fica no link some**/
+}

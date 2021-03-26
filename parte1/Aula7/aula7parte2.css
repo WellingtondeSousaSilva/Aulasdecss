@@ -1,0 +1,12 @@
+body{
+    background: rgb(247, 247, 247) url(nasalogo.jpeg) no-repeat 0px 0px / 100%;/**a porcentagem indica que a img do bacground vai ocupar 100% da janela sendo assim ela vai se ajustar de acordo com a janela**/
+
+    /**mesma coisa que:
+    background-color: width:;
+    background-image: url(nasalogo.jpeg);
+    background-repeat: no-reapeat;
+    background-position: 0px 0px;
+    background-size: 100%;
+    so que de forma mais economica
+    **/
+}

@@ -1,0 +1,13 @@
+div{
+    width: 300px;
+    height: 300px;
+    border: black solid 1px;
+    float: left;
+}
+#d1{
+    border: black solid 20px;
+    outline-color: crimson;
+    outline-width: 50px;
+    outline-style: solid;
+  
+}
