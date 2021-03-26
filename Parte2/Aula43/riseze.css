@@ -1,0 +1,7 @@
+div{
+    width: 300px;
+    height: 200px;
+    border: black 1px solid;
+    resize: both;/**riseze serve para redimencionar uma div atraves do navegador both serve para redimencionar tanto a horizontal como a vertical**/
+    overflow: auto;
+}

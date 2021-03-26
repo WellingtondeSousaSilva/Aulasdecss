@@ -1,0 +1,18 @@
+*{
+    color: black;
+}
+#d1{
+    color: blue;
+}
+#d2{
+    color: blueviolet;
+}
+#d3{
+    color: brown;
+}
+h1,p{
+    color: inherit;/**vai pegar a cor do elemento pai no caso a div, tem o initial mas ele vai ficar com a cor padrão que é preto**/
+}
+body{
+    background-color: lightcoral;
+}

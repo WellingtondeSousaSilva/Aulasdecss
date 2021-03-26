@@ -1,0 +1,44 @@
+.itens{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #ffff;
+}
+.conteiner{
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    align-items: center;
+}
+.conteiner2{
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    border: 1px solid black;
+    align-content: center;/**é muito semelhante ao align-items só que o center vai juntar os elementos para bem perto entre si diferente do outro que vão ficar bem separados, e também nessa propriedade podemos botar o space-between e o space-around, lembrando que essa propriedade contola o eixo secundario**/
+}
+.flexivel{/**voê pode criar uma classe para aplicar o diaplay flex inves de você aplicar direto ao conteiner o que deixa as coisas mais flexissiveis**/
+    display: flex;
+}
+.horinzontal{
+    flex-direction: row;/**flex-direction vai dizer qual a direção você quer que seus elementos sigam row é o padrão**/
+}
+.vertical{
+    flex-direction: column;/**os elementos vão ficar um em baixo do outro**/
+}
+.horinzontal-reverso{
+    flex-direction: row-reverse;/**os elementos ficam na horinzontal só que invertidos**/
+}
+.vertical-reverso{
+    flex-direction: column-reverse;/**os elementos vão ficar um em baixo do outro só que invertidos**/
+}
+.quebra{
+    flex-wrap: wrap;/**wrap vai fazer a linha quebrar que por padrão ela não quebra(nowrap)**/
+}
+.quebra-invertida{
+    flex-wrap: wrap-reverse;/**vai quebrar a linha, mas de forma invertida**/
+}

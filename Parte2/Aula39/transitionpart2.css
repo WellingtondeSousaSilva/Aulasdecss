@@ -1,0 +1,17 @@
+p{
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 28px;
+    transition: 2s, 2s, 2s, 2s, transform 1s;/**na ordem largura, altura, background, color e transform**/
+    transition-timing-function: linear;
+    transition-delay: 1s;/**aqui vai ter um delay de tempo quando passar i mouse em cima vai esperar um segundo para a animação funcionar**/
+}
+p:hover{
+    color: cyan;
+    background-color: darkmagenta;
+    width: 800px;
+    height: 250px;
+    transform: rotate(360deg);
+}

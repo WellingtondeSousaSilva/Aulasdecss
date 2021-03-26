@@ -1,0 +1,14 @@
+img{
+    width: 150px;
+    height: 120px;
+    border: 1px solid black;
+}
+#img1{
+    float: left;/**float e flutuante, nesse caso a img vai pra esquerda mas ela já esta, desse jeito o texto vai ficar logo a direita dela**/
+}
+#img2{
+    float: right;/**essa imagem vai para a direita**/
+}
+.fix{
+    clear: both;/**clear serve para que o texto não entre para imagem both nesse caso vai cancelar os dois lados**/
+}

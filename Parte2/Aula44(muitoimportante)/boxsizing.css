@@ -1,0 +1,15 @@
+#d1{
+    width: 300px;
+    height: 250px;
+    border: 11px solid black;
+    padding: 11px;
+
+    /**aqui o tamanho da div é largura de 300 e altura de 250 porém esse não é seu tamanho real pois é adicionado o padding e a borda**/
+}
+#d2{
+    width: 300px;
+    height: 250px;
+    border: 11px solid black;
+    padding: 11px;
+    box-sizing: border-box;/**essa propriedade border-box(o padrão é content-box) nos permite deixar o elemento com seu tamanho original, ou seja, ela não vai ser influenciada com padding a largura da borda e etc**/
+}

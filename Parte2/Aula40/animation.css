@@ -1,0 +1,16 @@
+@keyframesanima1{
+    from{left: 0px;top: 0px;}
+    do{left: 300px;top: 300px;}
+}
+
+p{
+    position: relative;
+    
+    width: 600px;
+    height: 165px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    animation-name: keyframesanima1;
+    animation-duration: 3s;
+}

@@ -1,0 +1,18 @@
+p{
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+
+    columns: 2;/**número de colunas**/
+    -webkit-columns: 2;/**vesões mais antigas de navegadores**/
+    -moz-columns: 2;/**vesões mais antigas de navegadores**/
+
+    column-gap: 50px;/**espaçamento entre as colunas**/
+
+    column-rule: 1px outset black;/**uma linha divisoria entre as colunas**/
+
+}

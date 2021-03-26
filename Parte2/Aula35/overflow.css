@@ -1,0 +1,15 @@
+#d1{
+    border: 1px solid black;
+    width: 500px;
+    height: 250px;
+    overflow: auto;/**vai controlar os elementos que excedem o seu conteiner auto vai adicionar barras de rolagem caso necessário**/
+}
+#d2{
+    overflow: scroll;/**scroll vai adicionar barras de rolagem sem precisar**/
+}
+#d3{
+    border: 1px solid black;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;/**hidden vai ocultar os elementos que excedem o seu conteiner**/
+}

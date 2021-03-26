@@ -1,0 +1,18 @@
+#img1{
+    filter: drop-shadow(5px 5px 10px pink );/**vai colocar uma sombra na imagem na ordem distX, distY, tamanho e cor**/ 
+}
+#img2{
+    filter: hue-rotate(100deg);/**coisa a matiz**/
+}
+#img3{
+    filter: invert(1);/**inverte a cor**/
+}
+#img4{
+    filter: opacity(50%);/**transparência da cor**/
+}
+#img5{
+    filter: saturate(150%);/**saturação da cor, quanto maior mais forte a cor, quanto menor mais morto**/
+}
+#img6{
+    filter: sepia(100%);/**deixa a imagem com aspecto de velho**/ 
+}

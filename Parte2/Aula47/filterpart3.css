@@ -1,0 +1,3 @@
+img{
+    filter: sepia(75%) saturate(50%) opacity(75%);/**colocando mais de um filtro na imagem**/
+}

@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    border: solid 1px black;
+    background-color: gray;
+}
+#d0{
+    background-color: #eef;
+    position: static;/**padrão não pode mover**/
+}
+#d1,#d2{
+    width: 300px;
+    height: 150px;
+}
+#d1{
+    position: static;
+}
+#d2{
+    position: absolute;/**agora podemos mover mas em relação ao conteiner desse elemento que é o #d0**/
+    top: 50px;/**espçamento de cima**/
+    left: 50px;/**espaçamento da esquerda**/
+}
+#d3{
+   margin-top: 50px;
+   z-index: 1;
+}
+#d4{
+    position: static;
+    z-index: 2;
+}
+#d4,#d5{
+    width: 300px;
+    height: 150px;
+}
+#d5{
+    position: relative;/**mesma coisa do absolute só que é em relação ao elemento anterior que é o #d4**/
+    top: 0px;
+    left: 60px;
+}

@@ -1,0 +1,52 @@
+.itens{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #ffff;
+}
+.conteiner{
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    align-items: stretch;/**align-items vai definir a alinhamento dos elementos no eixo secundario strecht é o padrão no caso os elementos vão ficar esticados**/
+}
+.conteiner2{
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    align-items: flex-start;/**os elementos não vão ficar mais esticados e vão ficar lá em cima**/
+}
+.conteiner3{
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    align-items: flex-end;/**os elementos vão ficar lá em baixo**/
+}
+.conteiner4{
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;/**vai dixar os elementos no meio**/
+}
+.conteiner5{
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    align-items: baseline;/**é a lina base**/
+}
+.flexivel{/**voê pode criar uma classe para aplicar o diaplay flex inves de você aplicar direto ao conteiner o que deixa as coisas mais flexissiveis**/
+    display: flex;
+}

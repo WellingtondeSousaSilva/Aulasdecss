@@ -1,0 +1,46 @@
+.itens{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #ffff;
+}
+.conteiner{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    justify-content: flex-start;/**vai definir o comportamento horizontal dos elementos flex-start é o padrão**/
+}
+.conteiner2{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    justify-content: flex-end;/**flex-end vai colocar os elementos no final**/
+}
+.conteiner3{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    justify-content: center;/**vai centralizar os elementos**/
+}
+.conteiner4{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    justify-content: space-between;/**vai dividir os elementos em três partes um vai ficar colado na esquerda e no meio e outro colado na direita**/
+}
+.conteiner5{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    justify-content: space-around;/**é praticamente a mesma coisa do space-between so que os elementos da esquerda e da direita não vão ficar colados, eles vão ter um espaço**/
+}
+.flexivel{/**voê pode criar uma classe para aplicar o diaplay flex inves de você aplicar direto ao conteiner o que deixa as coisas mais flexissiveis**/
+    display: flex;
+}

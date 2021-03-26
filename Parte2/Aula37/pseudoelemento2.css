@@ -1,0 +1,14 @@
+p{
+    font-size: 35px;
+}
+p::first-letter{/**configura a primeira letra do elemento**/
+    font-size: 45;
+    color: tomato;
+}
+p::first-line{/**configura somente a primeira linha do elemento, é tipo um marcador**/
+    background: violet;
+}
+::selection{/**vai configurar a seleção do moouse, se usa isso na pagina, por isso não tem nenhum elemento selecionado**/
+    color: aquamarine;
+    background-color: purple;
+}

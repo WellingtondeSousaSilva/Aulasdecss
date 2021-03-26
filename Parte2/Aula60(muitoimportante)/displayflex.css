@@ -1,0 +1,16 @@
+.itens{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #ffff;
+}
+.conteiner{
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid black;
+}
+.flexivel{/**voê pode criar uma classe para aplicar o diaplay flex inves de você aplicar direto ao conteiner o que deixa as coisas mais flexissiveis**/
+    display: flex;
+}

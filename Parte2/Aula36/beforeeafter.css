@@ -1,0 +1,8 @@
+.p1::before{/**colocar um pseudo-elemento antes**/
+    content: "ddddd-";/**colocar um elemento antes também pode ser uma imagem**/
+    color: blue;
+}
+.p2::after{/**colocar um pseudo-elemento depois**/
+    content: "-asdfg";/**colocar um elemento depois**/
+    color: palevioletred;
+}

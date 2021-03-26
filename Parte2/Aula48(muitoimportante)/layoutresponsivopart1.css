@@ -1,0 +1,20 @@
+@media screen and (min-width: 500px) and (max-width: 800px){/**comando para dizer que as regras nessa propriedade serve para ser responsivo, para celulares, tablests, entre outros dispositivos**/
+    body{
+        background-color: crimson;
+    }
+}
+@media screen and (max-width: 500px) and (orientation: portrait){/**se a tela for de tamanho max 400px e a orientação da tela for em retrato(em pé) a cor será rosa**/
+    body{
+        background-color: pink;
+    }
+}
+@media screen and (max-width: 500px) and (orientation: landscape){/**se a tela for de tamanho max 400px e a orientação da tela for em paisagem(deitado) a cor será verde**/
+    body{
+        background-color: green;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px){
+    body{
+        background-color: cyan;
+    }
+}

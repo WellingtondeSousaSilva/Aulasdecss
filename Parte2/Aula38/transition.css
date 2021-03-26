@@ -1,0 +1,24 @@
+p{
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 28px;
+    transition: 2s, 2s, 2s, 2s;/**na ordem largura, altura, background e color**/
+    transition-timing-function: ease;/**configuramos a velocidade de como vai acontecer a animação ease é o padrão**/
+}
+p:hover{
+    color: cyan;
+    background-color: darkmagenta;
+    width: 800px;
+    height: 250px;
+}
+#p2{
+    transition-timing-function: linear;/**aqui a velocidade da animação e constante, ou seja, ela não muda, come de um jeito e termina como começou**/
+}
+#p3{
+    transition-timing-function: ease-in;/**vai começar devagar e termina rápido**/
+}
+#p4{
+    transition-timing-function: ease-out;/**começa rápido e termina devagar**/
+}

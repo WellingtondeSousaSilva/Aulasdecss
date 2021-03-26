@@ -1,0 +1,12 @@
+#img1{
+    filter: grayscale(100%);/**trabalha com a escala de cinza e usa-se % e só vai de 1 a 100**/
+}
+#img2{
+    filter: blur(5px);/**trabalha com o embaçamento**/
+}
+#img3{
+    filter: brightness(150%);/**trabalha com o brilho da img e usa-se %**/
+}
+#img4{
+    filter: contrast(111%);/**trabalha com o contraste da img e usa-se %**/
+}
